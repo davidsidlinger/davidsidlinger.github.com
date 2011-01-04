@@ -1,0 +1,27 @@
+body {
+  font-family: Helvetica,Arial Unicode MS,Arial,sans;
+  font-size: 67.5%;
+  background: #fff;
+  color: #000; }
+
+p {
+  text-align: justify; }
+
+#content {
+  width: 60em;
+  padding: 5em 10em;
+  margin: auto; }
+
+.big {
+  font-size: 3em; }
+
+.almostbig {
+  font-size: 2em; }
+
+.commentary {
+  font-size: .75em;
+  font-style: italic;
+  color: #333;
+  border-left: 1px solid #333;
+  padding-left: .5em;
+  margin-top: .5em; }
