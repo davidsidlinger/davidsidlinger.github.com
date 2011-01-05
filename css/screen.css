@@ -1,22 +1,26 @@
 body {
   font-family: Helvetica,Arial Unicode MS,Arial,sans;
-  font-size: 67.5%;
   background: #fff;
-  color: #000; }
+  color: #000;
+}
 
 p {
-  text-align: justify; }
+  text-align: justify;
+}
 
 #content {
   width: 60em;
   padding: 5em 10em;
-  margin: auto; }
+  margin: auto;
+}
 
 .big {
-  font-size: 3em; }
+  font-size: 3em;
+}
 
 .almostbig {
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .commentary {
   font-size: .75em;
@@ -24,4 +28,19 @@ p {
   color: #333;
   border-left: 1px solid #333;
   padding-left: .5em;
-  margin-top: .5em; }
+  margin-top: .5em;
+}
+
+p.slug {
+  font-size: .75em;
+  font-style: italic;
+  color: #333;
+  border-left: 1px solid #333;
+  padding-left: .5em;
+  margin-top: .5em;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
