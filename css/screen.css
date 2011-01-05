@@ -8,21 +8,46 @@ p {
   text-align: justify;
 }
 
-#content {
+#wrapper {
   width: 60em;
   padding: 5em 10em;
   margin: auto;
 }
 
-.big {
+#places {
+  border-top: .2em solid #ddd;
+  border-bottom: .2em solid #ddd;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 0.75em;
+}
+
+#places .dead {
+  color: #eee;
+}
+
+#header p.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #aaa;
+  margin-bottom: 0.1em;
+}
+
+#header p.subtitle {
+  font-size: 1.25em;
+  color: #aaa;
+  margin-top: 0.1em;
+}
+
+#content .big {
   font-size: 3em;
 }
 
-.almostbig {
+#content .almostbig {
   font-size: 2em;
 }
 
-.commentary {
+#content .commentary {
   font-size: .75em;
   font-style: italic;
   color: #333;
@@ -31,7 +56,7 @@ p {
   margin-top: .5em;
 }
 
-p.slug {
+#content p.slug {
   font-size: .75em;
   font-style: italic;
   color: #333;
@@ -40,7 +65,7 @@ p.slug {
   margin-top: .5em;
 }
 
-h1 {
+#content h1 {
   font-size: 2.5em;
   font-weight: bold;
 }

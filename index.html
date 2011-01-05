@@ -2,30 +2,9 @@
 layout: default
 title: David Sidlinger
 ---
-<div class='vcard' id='hcard-David-Sidlinger'>
-  <p class='big'><a class='url fn' href='http://davidsidlinger.com'>David Sidlinger</a> is a programmer in Nashville, Tennessee.  </p>
-  <p class='big'>Tweet at <a class='url' href='http://twitter.com/davidsidlinger'>me</a>.</p>
-  <p class='big'><a href='posts.html'>Read</a> things that take a little longer to say.</p>
-</div>
-<p class='big'>Here are some of the places you can find me online:</p>
-<ul class='big' id='linkme'>
-  <li>
-    <a href='http://b.davidsidlinger.com/'>Tumblr (so dead)</a>
-  </li>
-  <li>
-    <a href='http://delicious.com/davidsidlinger'>Links</a>
-  </li>
-  <li>
-    <a href='http://davidsidlinger.wordpress.com/'>The old blog</a>
-    <p class='commentary'>I migrated my posts over to a free Wordpress blog. No Markdown support rendered them pretty ugly, though.</p>
-  </li>
-  <li>
-    <a href='http://flickr.com/photos/anothercodemonkey/'>Pictures</a>
-  </li>
-  <li>
-    <a href='http://github.com/davidsidlinger'>github</a>
-  </li>
-  <li>
-    <a href='http://bitbucket.org/davidsidlinger/'>bitbucket</a>
-  </li>
+<h2>Posts</h2>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </ul>

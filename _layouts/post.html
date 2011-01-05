@@ -2,6 +2,8 @@
 layout: default
 ---
 <div id="post">
+  <h1>{{ page.title }}</h1>
+  <p class="slug">{{ page.date | date_to_string }} - {{ page.location }}</p>
 {{ content }}
 </div>
 
