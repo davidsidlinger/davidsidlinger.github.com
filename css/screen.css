@@ -22,8 +22,8 @@ p {
   font-size: 0.75em;
 }
 
-#places .dead {
-  color: #eee;
+#places a {
+  color: #000
 }
 
 #header p.title {
