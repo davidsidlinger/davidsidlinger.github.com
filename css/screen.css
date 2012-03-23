@@ -4,17 +4,13 @@ body {
   color: #000;
 }
 
-p {
-  text-align: justify;
-}
-
 #wrapper {
   width: 60em;
   padding: 5em 10em;
   margin: auto;
 }
 
-#places {
+.places {
   border-top: .2em solid #ddd;
   border-bottom: .2em solid #ddd;
   padding-top: 1em;
@@ -22,32 +18,22 @@ p {
   font-size: 0.75em;
 }
 
-#places a {
+.places a {
   color: #000
 }
 
-#header p.title {
-  font-size: 2.5em;
+header p {
+  font-size: 2.0em;
   font-weight: bold;
   color: #aaa;
   margin-bottom: 0.1em;
 }
 
-#header p.subtitle {
-  font-size: 1.25em;
-  color: #aaa;
-  margin-top: 0.1em;
+.retracted {
+    text-decoration: line-through;
 }
 
-#content .big {
-  font-size: 3em;
-}
-
-#content .almostbig {
-  font-size: 2em;
-}
-
-#content .commentary {
+.content .commentary {
   font-size: .75em;
   font-style: italic;
   color: #333;
@@ -56,7 +42,7 @@ p {
   margin-top: .5em;
 }
 
-#content p.slug {
+.content p.slug {
   font-size: .75em;
   font-style: italic;
   color: #333;
@@ -65,7 +51,17 @@ p {
   margin-top: .5em;
 }
 
-#content h1 {
+.content h1 {
   font-size: 2.5em;
   font-weight: bold;
+}
+
+.resume h2 {
+  font-size: 1.75em;
+  font-weight: bold;
+  color: #999;
+}
+
+.resume h3 {
+    font-size: 1.25em;
 }
