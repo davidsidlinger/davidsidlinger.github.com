@@ -31,10 +31,16 @@ queries, and build a set of classes representing the structure of the cube.
 New features that would have taken weeks to develop can be shipped in days 
 without comprimising quality.
 
-I've been successful in warding off the people that seem determined to impose 
-tools and processes that don't work for the team with reasonable discussions 
-about hard measurements and without shouting matches. I'm as proud of this as 
-any technical achievment.
+My team and I have been used as an example of the productivity and quality 
+that Press Ganey expects from its programming teams. As the company has grown,
+we've been called upon to mentor other clinical development teams in the 
+tools, techniques, and process we use to deliver frequent releases of high
+quality software.
+
+I've also been successful in warding off the people that seem determined to 
+impose tools and processes that don't work for the team with reasonable 
+discussions about hard measurements and without shouting matches. I'm as proud 
+of this as any technical achievment.
 
 My responsibilities include:
 
@@ -122,7 +128,17 @@ stack that allowed us to be extremely effective at creating real business value.
 
 ## Tools & Technology
 
+The majority of my work for the past decade has been built on the .NET platform 
+in C#. I strongly believe that exposure to other platforms and languages gives 
+me the ability to bring the appropriate technology to bear on any given problem.
 
+I am extremely proficient in C#, F#, and Javascript and more than a little 
+acquainted with OCaml, Ruby, and Python. I can construct and tune complex SQL, 
+although I prefer to let my tools do that for me, and I have a passable command 
+of MDX.
+
+I have delivered software on all releases of the .NET framework. My most recent 
+work is a web application built using ASP.NET MVC 3. 
 
 ## References
 
