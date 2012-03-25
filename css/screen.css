@@ -56,6 +56,10 @@ header p {
   font-weight: bold;
 }
 
+.resume {
+  line-height: 1.5
+}
+
 .resume h2 {
   font-size: 1.75em;
   font-weight: bold;
@@ -64,4 +68,8 @@ header p {
 
 .resume h3 {
     font-size: 1.25em;
+}
+
+.resume li {
+
 }
