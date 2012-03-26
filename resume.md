@@ -10,7 +10,7 @@ Code craftsman with experience delivering kick-ass software. I am passionate abo
 
 ### Press Ganey Associates, Nashville, Tennessee
 *Lead Software Developer*  
-*2010–Present (First seven months as a consultant)*
+*2010–Present*
 
 At Press Ganey, I lead a team developing an application used by our customers 
 to analyze financial and clinical healthcare data, along with focused tools 
