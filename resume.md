@@ -29,18 +29,18 @@ Few tools for building and manipulating MDX queries exist. The team built a
 tool to enforce syntactically correct construction, rewrite constructed 
 queries, and build a set of classes representing the structure of the cube. 
 New features that would have taken weeks to develop can be shipped in days 
-without comprimising quality.
+without compromising quality.
 
 My team and I have been used as an example of the productivity and quality 
 that Press Ganey expects from its programming teams. As the company has grown,
-we've been called upon to mentor other clinical development teams in the 
+we have been called upon to mentor other clinical development teams in the 
 tools, techniques, and process we use to deliver frequent releases of high
 quality software.
 
-I've also been successful in warding off the people that seem determined to 
-impose tools and processes that don't work for the team with reasonable 
-discussions about hard measurements and without shouting matches. I'm as proud 
-of this as any technical achievment.
+I have also been successful in warding off the people that seem determined to 
+impose tools and processes that do not work for the team with reasonable 
+discussions about hard measurements and without shouting matches. I am as proud 
+of this as any technical achievement.
 
 My responsibilities include:
 
