@@ -53,7 +53,7 @@ My responsibilities include:
 
 ### HCA, Nashville, Tennessee
 *Domain Architect*  
-*2002-2010 (First eighteen months as a consultant)*
+*2002-2010*
 
 I provided the technical direction for multiple development teams supporting 
 the Outpatient Services Group of HCA. My day-to-day work consisted of:
