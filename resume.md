@@ -4,8 +4,7 @@ title: Resume
 ---
 ## Profile
 
-Code craftsman with experience delivering kick-ass software. I am passionate 
-about quality and a firm believer in loving what you do.
+Code craftsman with experience delivering kick-ass software. I am passionate about quality and a firm believer in loving what one does.
 
 ## History
 
