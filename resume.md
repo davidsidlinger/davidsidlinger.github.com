@@ -56,7 +56,7 @@ I am most proud of the role I played in building the team, improving the develop
 
 ## Tools & Technology
 
-The majority of my work for the past decade has been built using Microsoft's .NET Framework and related tools with an emphasis in C#. However, I am an avid technologist.  As such, I strongly believe exposure to other platforms and languages gives one the ability to use the appropriate technology stack for any project.  For example, I currently own several Mac OSX machines and frequently write software to run on the OSX platform.
+The majority of my work for the past decade has been built using Microsoft's .NET Framework and related tools with an emphasis in C#. However, I am an avid technologist.  I strongly believe exposure to other platforms and languages gives one the ability to use the appropriate technology stack for any project.  For example, I own several Macs and frequently write software to run on the OS X platform.
 
 I am an expert in C#, F#, Javascript, web development, team building, and software design patterns. In addition, I am proficient with OCaml, Ruby, and Python. I can construct, troubleshoot, and optimize complex SQL, although I prefer to let a competent tool chain perform the heavy lifting.
 
