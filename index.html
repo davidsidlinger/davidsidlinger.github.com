@@ -1,10 +1,24 @@
 ---
 layout: default
-title: David Sidlinger
+title: Home
 ---
-<h2>Posts</h2>
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<section>
+    <div class="jumbotron">
+        <h2>
+            <span>David Sidlinger</span>
+            <small>A programmer in Nashville, Tennessee</small>
+        </h2>
+        <p class="lead">Some things about me, in no particular order:</p>
+        <ul class="list-unstyled">
+            <li>I <i class="fa fa-heart"></i> my family.</li>
+            <li>I enjoy making things, digital and otherwise.</li>
+            <li>I like to mess with stuff in the yard. (Not literally.)</li>
+            <li>I have an unusually low tolerance for bullshit I do not generate.</li>
+            <li>I find your lack of faith disturbing.</li>
+            <li>I am mostly water.</li>
+        </ul>
+        <p>
+            <a class="btn btn-info btn-lg" href="resume.html">My resume, if you're into that kind of thing.</a>
+        </p>
+    </div>
+</section>

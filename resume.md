@@ -1,7 +1,11 @@
 ---
-layout: resume
+layout: full-width
 title: Resume
 ---
+<div class="alert alert-warning">
+    <span>This resume is out-of-date, but I think you can get the gist. I promise to consider thinking about updating it soon.</span>
+</div>
+
 ## Profile
 
 Code craftsman with experience delivering kick-ass software. I am passionate about quality and a 
@@ -11,7 +15,7 @@ firm believer in loving what one does.
 
 ### Press Ganey Associates, Nashville, Tennessee
 *Lead Software Developer*  
-*2010–Present*
+*2010–2012*
 
 At Press Ganey, I lead a team actively developing an application used to analyze financial and clinical healthcare data.  In addition the team builds more focused tools made available as separately sold modules. The product is used to improve the quality of healthcare provided and the financial performance of healthcare organizations.
 
