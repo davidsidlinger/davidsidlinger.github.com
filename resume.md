@@ -2,69 +2,117 @@
 layout: full-width
 title: Resume
 ---
-<div class="alert alert-warning">
-    <span>This resume is out-of-date, but I think you can get the gist. I promise to consider thinking about updating it soon.</span>
-</div>
 
-## Profile
+## Summary
 
-Code craftsman with experience delivering kick-ass software. I am passionate about quality and a 
-firm believer in loving what one does.
+Over fifteen years experience building teams and high-quality software in many environments on multiple platforms.
 
-## History
+## Experience
+
+### Artist Growth, LLC, Nashville, Tennessee
+*Principal Software Engineer*
+*2014-Present*
+
+Artist Growth provides software as a service that helps musicians and music industry professionals manage the business aspects of their and their clients' careers. Among other features, it provides scheduling, financial tracking and reporting, and inventory management. Customers are able to build a team by adding collaborators with granular permissions, granting people the access they need to get their job done.
+
+As Principal Software Engineer, I am responsible for and involved in all aspects of taking features from product development ideas to reality. My responsibilities include …
+
+* … working with the Product Development and Design team to refine feature requests, including feasibility assessments, scope refinement, building acceptance criteria, and prioritization.
+* … triaging bugs to determine customer impact and root cause.
+* … high-level design and technical direction.
+* … implementation of features and bug fixes from planning to deployment.
+* … establishing expectations and processes for technical work.
+* … working with the entire organization to build and improve a product development process.
+
+Artist Growth is primarily a Django/Python web application. Almost all functionality is exposed through a RESTful API, allowing our partners to easily integrate their existing systems with our platform. All recent front-end development has been inside a single-page application which consumes the API. An incomplete list of the technology in use includes:
+
+* Python
+* Django
+* OAuth2
+* Django Rest Framework
+* Celery
+* Bootstrap
+* Durandal
+* TypeScript
+* Xamarin (C#)
+* Gulp
+* Jenkins
+* Various AWS offerings (EC2, VPC, S3, CloudFront, CloudFormation, CodeDeploy)
+
+Artist Growth employs all commonly accepted development best practices, including: code hygiene checks, peer review of submitted pull requests, automated testing, and automated, "single-button" deployment of the entire platform.
+
+### Healthbox Technologies, LLC
+*Lead Software Developer*
+*2012-2014*
+
+Healthbox provided project-based design and development of custom software for customers in healthcare. During my tenure as Lead Software Developer, we contributed to the server-side API of two significant mobile applications and the replacement of an aging web application. We were sought out by our customers, because our entire team had significant experience building high-quality, secure, healthcare-related applications that could operate at scale. My responsibilities included …
+
+* … working with the customer to build a picture of both the minimum viable product and long-term goals for the application.
+* … converting customer conversations into discrete user stories to be worked.
+* … identifying non-functional requirements related to performance, security, and HIPAA-compliance.
+* … contributing to the design and development of a set of common libraries to handle common tasks and patterns.
+* … planning and creating AWS application deployment environments that were both secure and cost effective.
+* … representing the development team during planning and discussion with customers.
+* … establishing project infrastructure (e.g. SCM repositories, build servers, test environment).
+* … designing and maintaining a virtual AWS data center for internal assets and development.
+
+Healthbox blended "traditional" Microsoft .NET tools with the strategic use of AWS products to deliver applications that met the security, reliability, and performance expectations of our customers. I am very proud of what we were available to accomplish with a very small team in a short development cycle. Some of the tools and technology used include:
+
+* C#
+* ASP.NET Web API
+* ASP.NET MVC
+* Entity Framework
+* Bootstrap
+* Durandal
+* TypeScript
+* Microsoft SQL Server
+* AWS DynamoDB
+* AWS S3
+* AWS EC2/VPC
+* AWS CloudFormation
+* Windows Server 2012 R2
+* IIS 8
+* Ubuntu 12.04 LTS
+* OpenVPN
 
 ### Press Ganey Associates, Nashville, Tennessee
 *Lead Software Developer*  
 *2010–2012*
 
-At Press Ganey, I lead a team actively developing an application used to analyze financial and clinical healthcare data.  In addition the team builds more focused tools made available as separately sold modules. The product is used to improve the quality of healthcare provided and the financial performance of healthcare organizations.
+Press Ganey provides a wide range of offerings to help healthcare providers understand and improve all facets of patient care. As a Lead Software Developer, I worked primarily on products focusing on clinical quality measures. My team and I built two web applications which allowed providers and physicians to flexibly and quickly view quality statistics, trends, and benchmarks. My responsibilities included …
 
-The team consistently exceeds expectations of quality and productivity. The application offers extreme flexibility in filtering and presentation of large data sets quickly and reliably. I relish the unique challenges of the product and derive much joy from delivering software that addresses them.
+* … assisting Product Development with the formulation and refinement of feature requests.
+* … triaging bugs to determine customer impact and root cause.
+* … high-level design and technical direction.
+* … implementation of features and bug fixes from planning to deployment.
+* … establishing expectations and processes for technical work.
+* … working with the entire organization to build and improve a product development process.
+* … allocation of team effort to ensure efficiency and timely delivery.
+* … translation of measurement definitions to efficient MDX queries.
 
-Few tools for building and manipulating MDX queries exist. The team built a tool to enforce syntactically correct construction, rewrite constructed queries, and build a set of classes representing the structure of the cube. New features that would have taken weeks to develop can be shipped in days without compromising quality.
+The web applications were built using a variety of Microsoft products, which were selected for their ability to provide the desired performance and quality profile. One of our biggest accomplishments was a library that allowed MDX queries to be built as an abstract syntax tree in C#, which could have further filters — both security and user-defined — applied later in the request pipeline. Some of the tools and technology used include:
 
-My team and I have been used as an example of the productivity and quality that Press Ganey expects from its various programming teams. As the company has grown, my team has been called upon to mentor other clinical development teams in the tools, techniques, and processes we use to deliver frequent releases of high-quality software.
-
-I have also been successful in deterring others who impose tools and processes that do not work for the team through positive discourse and factual measurements. I am as proud of this as any technical achievement.
-
-My responsibilities include:
-
-* Design and implementation of new functionality
-* Working with Product Management to define requirements and product direction
-* Building a team culture of accountability and transparency
-* Defining development, testing, and delivery processes
-* Mentoring teams working on other clinical products
-* Planning and coordinating efforts of multiple, geographically-separated teams
+* C#
+* JavaScript
+* MDX
+* Microsoft ASP.NET MVC
+* Microsoft Web API
+* Entity Framework
+* Bootstrap
+* Durandal
+* Highcharts
+* Microsoft SQL Server
+* Microsoft SQL Server Analysis Services
+* IIS
+* Windows Server 2008 R2
 
 ### HCA, Nashville, Tennessee
-*Domain Architect*  
+*Consulting Application Engineer/Domain Architect*  
 *2002-2010*
 
-I provided the technical direction for multiple development teams supporting the Outpatient Services Group of HCA. My day-to-day work consisted of:
-
-* Reviewing business needs and requests for new functionality or products to develop a cohesive plan for future work
-* Designing software to align with the needs of the organization
-* Providing technical guidance and mentoring to other software developers
-* Working with QA and Operations personnel to guide the delivery of software to production
-* Improving the software development process
-* Working with management to produce realistic estimates of work
-
-We were incredibly effective. Some of the accomplishments of my last few years:
-
-* Enhanced and maintained a physician practice management system (PPMS) that supported over five hundred physician practices. The system was responsible for scheduling of patient visits, billing of medical claims, and back-office work needed to ensure those medical claims were paid. The system was used to electronically submit over ten million dollars in healthcare claims monthly. The team delivered system enhancements monthly for over a year. It was the largest centralized practice management software installation in existence.
-* Designed and developed multiple interfaces and applications in support of a new practice management system purchased by HCA. The new system presented unique challenges to the team (i.e. the vendor was often not able or willing to provide the information needed to effectively work with PPMS data). The interfaces included uploading of accounting data to the general ledger, extracting patient visit statistics, and extracting patient account information used for delinquent payment collections. The applications included a utility used to replicate “master” information between multiple PPMS installations and a suite of tools used to process and post payments from insurance companies. All of these products were critical to the daily operations of the outpatient group.
-* Designed and developed a system used to continue practice operations when the new practice management system was offline. This system had stringent availability and security constraints (e.g. high-availability and protection of patient information to comply with ethical matters and federal laws). It played an important role many times during the rollout of the new PPMS. As a result, business continuity was ensured, regardless of downtime or performance degradation.
-* Designed and developed a system used by physician recruiters to capture information about job opportunities while in the field, which had the ability to synchronize with an existing CMS system. Prior to this software, printed forms were used which caused unnecessary delays and errors from keying the information into the primary CMS application days or weeks later. The application used local storage, which allowed the recruiters to work disconnected from the corporate network and synchronize with a centralized server later.  As a result, recruiting efforts were vastly improved and recruiters had more timely access to vital information.
-
-I am most proud of the role I played in building the team, improving the development process, and fostering positive interactions with business owners. When I started at HCA, development was flailing and subsequently somewhat unstructured. When I left, our team was used as a quintessential example of doing things right throughout the organization. I helped assemble a team that was both impressive in technical proficiency and in business competency. With the help of my leadership, the team moved from a process model based on big up-front design to an iterative process resulting in more quality control and more frequent deliveries. In addition, the team adopted and realized the benefits of unit testing, continuous integration, and static analysis. I played an integral role in selecting and implementing a technology stack that yielded extreme efficiency and better alignment with the business needs of the company.
-
-## Tools & Technology
-
-The majority of my work for the past decade has been built using Microsoft's .NET Framework and related tools with an emphasis in C#. However, I am an avid technologist.  I strongly believe exposure to other platforms and languages gives one the ability to use the appropriate technology stack for any project.  For example, I own several Macs and frequently write software to run on the OS X platform.
-
-I am an expert in C#, F#, Javascript, web development, team building, and software design patterns. In addition, I am proficient with OCaml, Ruby, and Python. I can construct, troubleshoot, and optimize complex SQL, although I prefer to let a competent tool chain perform the heavy lifting.
-
-I have delivered software on all releases of the .NET Framework. My most recent work is a web application built using ASP.NET MVC 3.
+### Dollar General, Goodlettesville, Tennessee
+*Programmer/Analyst - Web/Windows*
+*2000-2002*
 
 ## References
 
