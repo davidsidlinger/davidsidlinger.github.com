@@ -34,8 +34,9 @@ Artist Growth is primarily a Django/Python web application. Almost all functiona
 * Bootstrap
 * Durandal
 * TypeScript
-* Xamarin (C#)
-* Gulp
+* Ionic
+* Angular
+* Electron
 * Jenkins
 * Various AWS offerings (EC2, VPC, S3, CloudFront, CloudFormation, CodeDeploy)
 
